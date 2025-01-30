@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workout Generator</title>
-    <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-    <h1>Welcome to the Workout AI Generator</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Workout Wizard</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AI Workout Wizard</h1>
+    </header>
 
+    <main>
+      <form action="" placeholder="">
+        <select name="fitness_level" id="">
+          <option value="">Fitness Level</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+        <select name="gender" id="">
+          <option value="">Gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="non-binary">Non-binary</option>
+        </select>
+        <select name="workout_type" id="">
+          <option value="">Workout Type</option>
+          <option value="Agility-Training">Agility Training</option>
+          <option value="Aquatic-Exercise">Aquatic Exercise</option>
+          <option value="Bodyweight-Workouts">Bodyweight Workouts</option>
+          <option value="Cardiovascular-Workouts">
+            Cardiovascular Workouts
+          </option>
+          <option value="Circuit-Training">Circuit Training</option>
+          <option value="Endurance-Training">Endurance Training</option>
+          <option value="Flexibility-and-Balance-Workouts">
+            Flexibility and Balance Workouts/option>
+          </option>
+          <option value="Functional-Training">Functional Training</option>
+          <option value="HIIT">High-Intensity Interval Training (HIIT)</option>
+          <option value="Meditation">Meditation</option>
+          <option value="Pilates">Pilates</option>
+          <option value="Plyometric-Training">Plyometric Training</option>
+          <option value="Powerlifting">Powerlifting</option>
+          <option value="strength-training">Strength Training</option>
+          <option value="Suspension-Training">Suspension Training</option>
+          <option value="Weightlifting">Weightlifting</option>
+          <option value="Yoga">Yoga</option>
+        </select>
+        <br />
+        <select name="Goals" id="">
+          <option value="">Goals</option>
+          <option value="Build-Muscle">Build Muscle</option>
+          <option value="Burn-Fat">Burn Fat</option>
+          <option value="Improve-Flexibility">Improve Flexibility</option>
+          <option value="Increase-Endurance">Increase Endurance</option>
+          <option value="Increase-Strength">Increase Strength</option>
+          <option value="Reduce-Stress">Reduce Stress</option>
+        </select>
+        <select name="time" id="">
+          <option value="">Time</option>
+          <option value="5-minutes">5 Minutes</option>
+          <option value="10-minutes">10 Minutes</option>
+          <option value="15-minutes">15 Minutes</option>
+          <option value="20-minutes">20 Minutes</option>
+          <option value="30-minutes">30 Minutes</option>
+          <option value="45-minutes">45 Minutes</option>
+          <option value="60-minutes">60 Minutes</option>
+          <option value="90-minutes">90 Minutes</option>
+          <option value="120-minutes">120 Minutes</option>
+        </select>
+        <button type="submit">Generate Workout</button>
+      </form>
+    </main>
     <footer>
       This AI project was
       <a href="https://github.com/cinda87" target="_blank"
@@ -18,11 +83,11 @@
         >open-sourced on GitHub</a
       >
       and is
-      <a href="workout-ai-generator.netlify.app" target="_blank"
+      <a href="https://ai-workout-wizard.netlify.app" target="_blank"
         >hosted on Netlify</a
       >.
     </footer>
 
     <script src="src/index.js"></script>
-</body> 
+  </body>
 </html>
