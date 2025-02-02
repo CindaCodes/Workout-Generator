@@ -1,0 +1,89 @@
+body {
+  background-image: url("media/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Atma", serif;
+}
+
+.container {
+  margin: 90px auto;
+  max-width: 900px;
+}
+
+header {
+  margin: 10px;
+}
+
+h1 {
+  color: #f8f6f2;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
+}
+
+form {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ff57af;
+  font-size: 16px;
+  opacity: 85%;
+}
+
+select {
+  padding: 8px;
+  border: 2px solid black;
+  font-size: 16px;
+  border-radius: 50px;
+  margin: 5px;
+  color: #ff00cf;
+}
+
+select:hover, .submit-button:hover,.download-btn:hover {
+  background-color: #ff00cf;
+  color: #fff;
+}
+
+.instruction {
+  padding: 8px;
+  border: 2px solid black;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 50px;
+  margin: 5px;
+}
+
+.submit-button, .download-btn {
+  background: #fff;
+  color: #ff00cf;
+  border: 2px solid black;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.workout {
+  margin-top: 200px;
+  transform: rotate(-0.0015turn);
+  height: 1300px;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 320px;
+  color: #f8f6f2;
+  text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
+}
+
+a {
+  color: #f8f6f2;
+  text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
+}
+
+a:hover {
+  font-size: larger;
+}
