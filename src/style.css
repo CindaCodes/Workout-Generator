@@ -23,7 +23,7 @@ h1 {
   text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
 }
 
-form {
+.workout-form {
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -65,8 +65,13 @@ select:hover, .submit-button:hover,.download-btn:hover {
   font-weight: bold;
 }
 
+.download-btn {
+  margin-top: 175px;
+  float: right;
+  
+}
 .workout {
-  margin-top: 200px;
+  margin-top: 240px;
   transform: rotate(-0.0015turn);
   height: 1300px;
 }
