@@ -68,12 +68,27 @@ select:hover, .submit-button:hover,.download-btn:hover {
 .download-btn {
   margin-top: 175px;
   float: right;
-  
 }
+
 .workout {
   margin-top: 240px;
   transform: rotate(-0.0015turn);
   height: 1300px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(3, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 footer {
