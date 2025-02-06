@@ -3,11 +3,12 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   font-family: "Atma", serif;
+
 }
 
 .container {
-  margin: 90px auto;
-  max-width: 900px;
+  margin: 35px auto;
+  max-width: 700px;
 }
 
 header {
@@ -15,49 +16,73 @@ header {
 }
 
 h1 {
-  color: #f8f6f2;
+  color: white;
   font-size: 40px;
   font-weight: 800;
   line-height: 1.5;
   text-align: center;
-  text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
+  text-shadow: 0.5em 0 1em #4b2683, 0 0 0.5em #4b2683;
 }
 
 .workout-form {
   padding: 10px;
   text-align: center;
   border-radius: 10px;
-  background-color: #ff57af;
+  background-color: #4b2683;
   font-size: 16px;
-  opacity: 85%;
+  margin-bottom: 30px;
 }
 
+.workout-type {
+  width: 95%;
+}
+
+.fitness-level {
+  width: 27%;
+}
+
+.goals {
+  width: 36%;
+}
+
+.time {
+  width: 27%;
+}
+
+.instructions {
+  width: 65%;
+}
+
+.submit-button {
+  width: 25%
+}
 select {
   padding: 8px;
   border: 2px solid black;
   font-size: 16px;
   border-radius: 50px;
   margin: 5px;
-  color: #ff00cf;
+  color: black;
 }
 
-select:hover, .submit-button:hover,.download-btn:hover {
-  background-color: #ff00cf;
+select:hover,
+.submit-button:hover,
+.download-btn:hover {
+  background-color: #f19fc4;
   color: #fff;
 }
 
-.instruction {
+.instructions {
   padding: 8px;
   border: 2px solid black;
-  width: 60%;
   font-size: 16px;
   border-radius: 50px;
   margin: 5px;
 }
 
-.submit-button, .download-btn {
+.submit-button {
   background: #fff;
-  color: #ff00cf;
+  color: black;
   border: 2px solid black;
   font-size: 16px;
   border-radius: 50px;
@@ -71,9 +96,13 @@ select:hover, .submit-button:hover,.download-btn:hover {
 }
 
 .workout {
-  margin-top: 240px;
-  transform: rotate(-0.0015turn);
-  height: 1300px;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  border: 3px solid #4b2683;
+  background-color: #efc4d7;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 10px;
 }
 
 .generating {
@@ -93,15 +122,17 @@ select:hover, .submit-button:hover,.download-btn:hover {
 
 footer {
   text-align: center;
-  font-size: 16px;
-  margin-top: 320px;
-  color: #f8f6f2;
-  text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
+  font-size: 15px;
+  margin-top: 30px;
+  color: white;
+  font-weight: bolder;
 }
 
 a {
-  color: #f8f6f2;
-  text-shadow: 0.5em 0 1em #ff00cf, 0 0 0.5em #ff00cf;
+  color: white;
+  text-shadow: 0.5em 0 1em #885df1, 0 0 0.5em #885df1;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 a:hover {

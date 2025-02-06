@@ -22,7 +22,7 @@
 
       <main>
         <div class="workout-form">
-          <select name="workout_type" id="workout-type">
+          <select name="workout_type" id="workout-type" class="workout-type">
             <option value="">Workout Type</option>
             <option value="agility training">Agility Training</option>
             <option value="aquatic">Aquatic Exercise</option>
@@ -45,23 +45,22 @@
             <option value="weightlifting">Weightlifting</option>
             <option value="yoga">Yoga</option>
           </select>
-          <select name="fitness_level" id="fitness-level">
+          <select name="fitness_level" id="fitness-level" class="fitness-level">
             <option value="">Fitness Level</option>
             <option value="beginner">Beginner</option>
             <option value="intermediate">Intermediate</option>
             <option value="advanced">Advanced</option>
           </select>
-          <select name="Goals" id="goals">
+          <select name="Goals" id="goals" class="goals">
             <option value="">Goals</option>
             <option value="muscle building">Build Muscle</option>
             <option value="fat burning">Burn Fat</option>
             <option value="flexibility">Improve Flexibility</option>
             <option value="endurance building">Increase Endurance</option>
             <option value="strength building">Increase Strength</option>
-            <option value="stress reducing">Reduce Stress</option>
           </select>
 
-          <select name="time" id="time">
+          <select name="time" id="time" class="time">
             <option value="">Time</option>
             <option value="5">5 Minutes</option>
             <option value="10">10 Minutes</option>
@@ -77,16 +76,16 @@
           <form id="workout-generator-form">
             <input
               type="text"
-              placeholder="Enter any injuries or limitations     i.e: knee injury, back pain, etc."
+              placeholder="Enter any injuries or limitations (i.e: knee injury, back pain)"
               autofocus
               autocomplete="off"
-              class="instruction"
+              class="instructions"
               id="injuries"
             />
             <input type="submit" class="submit-button" value="Generate Workout" />
           </form>
         </div>
-        <button class="download-btn">Download As PDF</button>
+        
 
         <div class="workout" id="workout"></div>
       </main>
@@ -102,7 +101,7 @@
         and is
         <a href="https://ai-workout-wizard.netlify.app" target="_blank"
           >hosted on Netlify</a
-        >.
+        >
       </footer>
     </div>
     <script src="src/index.js"></script>
