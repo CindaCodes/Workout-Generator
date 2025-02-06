@@ -1,7 +1,7 @@
 body {
   background-image: url("media/background.jpg");
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   font-family: "Atma", serif;
 
 }
