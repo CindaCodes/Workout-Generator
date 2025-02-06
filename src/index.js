@@ -19,7 +19,7 @@ function generateWorkout(event) {
   let injuriesElement = document.querySelector("#injuries");
 
   let apiKey = "a050491735e3o6daf6dd43f3ab206bct";
-  let context = `You are an expert workout coach and specialize in creating short workouts with a warm-up and cool-down. Your task is to generate a workout in basic HTML. Follow the user’s instructions carefully. For each exercise, provide a link that should open in a new tab when clicked, for example https://www.youtube.com/results?search_query=push+ups. At the end of the workout, sign it with SheCodes AI inside a <strong> element. Avoid using quotes and the word html at the beginning. Thank you.`;
+  let context = `You are an expert workout coach and specialize in creating short workouts with a warm-up and cool-down. Your task is to generate a workout in basic HTML, no more than 50 lines. Follow the user’s instructions carefully. For each exercise, provide a link that should open in a new tab when clicked, for example https://www.youtube.com/results?search_query=push+ups. At the end of the workout, sign it with SheCodes AI inside a <strong> element. Avoid using quotes and the word html at the beginning and &lt;/ at the end. Thank you.`;
   let prompt = `User instructions: Generate a ${workoutTypeElement.value} workout for a ${fitnessLevelElement.value}, ${goalsElement.value} goal for ${timeElement.value} minutes. Please keep in mind any injuries or limitations such as ${injuriesElement.value} if blank ignore.`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
