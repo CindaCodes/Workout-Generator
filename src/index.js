@@ -10,7 +10,6 @@ function displayWorkout(response) {
   console.log(response.data.answer.length);
 }
 
-
 function generateWorkout(event) {
   event.preventDefault();
 
