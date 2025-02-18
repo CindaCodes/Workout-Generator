@@ -136,7 +136,7 @@ select:hover,
 footer {
   -webkit-text-stroke: 1px black;
   color: white;
-  font-size: 15px;
+  font-size: 15dpx;
   font-weight: bolder;
   text-align: center;
   text-shadow: 0.5em 0 1em #efc4d7, 0 0 0.5em #efc4d7;
