@@ -19,7 +19,7 @@ function generateWorkout(event) {
   let timeElement = document.querySelector("#time");
   let injuriesElement = document.querySelector("#injuries");
 
-  let apiKey = import.meta.env.API_KEY;
+  let apiKey = process.env.API_KEY;
   let context = `You are a professional workout coach creating concise, effective workout plans in plain HTML. Use a clear, larger title and list exercises with reps, sets, rounds, and duration. Keep the response under 1600 characters. `;
   let prompt = `User instructions: Generate a ${workoutTypeElement.value} workout for a ${fitnessLevelElement.value}, ${goalsElement.value} goal for ${timeElement.value} minutes. Please keep in mind any injuries or limitations such as ${injuriesElement.value} if blank ignore.`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
