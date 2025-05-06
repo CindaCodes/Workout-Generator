@@ -24,7 +24,7 @@ Welcome to **AI Workout Wizard** — a web-based tool that generates custom work
 
 ## 📸 Preview
 
-![Workout Generator Screenshot]<img width="1434" alt="Workout Generator Screenshot" src="https://github.com/user-attachments/assets/5deae557-ef55-477c-abda-278572764f9f" /> 
+<img width="1434" alt="Workout Generator Screenshot" src="https://github.com/user-attachments/assets/5deae557-ef55-477c-abda-278572764f9f" /> 
 
 ---
 
