@@ -2,7 +2,10 @@ function displayWorkout(response) {
   let workoutElement = document.querySelector("#workout");
 
   new Typewriter(workoutElement, {
-    strings: response.data.answer.replace("```html", "").replace("```", ""),
+    strings: `<div class="ai-response">${response.data.answer
+      .replace("```html", "")
+      .replace("```", "")}</div>`,
+
     autoStart: true,
     delay: 0.2,
     cursor: "",
@@ -39,7 +42,6 @@ function generateWorkout(event) {
       workoutElement.innerHTML = `<p>Error fetching workout. Please try again later.</p>`;
     });
 }
-
 
 function printWorkout() {
   let workoutElement = document.querySelector("#workout");
